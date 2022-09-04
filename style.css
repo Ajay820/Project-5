@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 2px;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: url(assets/bg.png);
+  background-size: 1580px 800px;
+  border-style: solid;
+  border-width: 100px 0px 0px 0px;
+}
+
+.logo {
+  position: absolute;
+  left: 100px;
+  top: 20px;
+}
+
+.list {
+  position: absolute;
+  left: 450px;
+  top: 40px;
+}
+.list-item {
+  position: relative;
+  display: inline;
+  padding: 25px;
+  color: #ffffff;
+  font-family: "Montserrat";
+}
+.button-small {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  background-color: #cf30c7fd;
+  width: 140px;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 8px;
+  font-family: "Montserrat";
+}
+.hero-heading {
+  position: absolute;
+  left: 380px;
+  top: 220px;
+  color: #ffffff;
+  font-size: 100px;
+}
+.hero-description {
+  position: absolute;
+  left: 500px;
+  top: 460px;
+  font-family: "poppins";
+  font-size: 30px;
+  color: #ffffff;
+}
+.button-large {
+  position: absolute;
+  left: 630px;
+  top: 550px;
+  background-color: #cf30c7fd;
+  width: 300px;
+  height: 60px;
+  border-radius: 15px;
+  font-family: "poppins";
+  font-size: 25px;
+  color: #ffffff;
+}
